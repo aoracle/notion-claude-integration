@@ -1,0 +1,4 @@
+#!/bin/bash
+# Notion CLI wrapper for Claude Code
+
+python3 /Users/anand/Dropbox/codebase/.claude/notion_integration.py "$@"

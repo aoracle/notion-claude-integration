@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+ml_env/
+*.egg-info/
+dist/
+build/
+
+# Data files
+*.csv
+*.parquet
+*.json
+*.joblib
+*.pkl
+*.npy
+*.wav
+*.mp3
+*.log
+data/
+logs/
+models/
+output/
+
+# Large files
+*.jar
+*.zip
+*.tar.gz
+*.rar
+
+# Images/Screenshots (conditionally)
+*.png
+*.jpg
+*.jpeg
+screenshots/
+tradingview_screenshots/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+config.py
+*_config.json
+session_token.txt
+
+# Temporary
+*.tmp
+*.bak
+*.backup
+tmp/
+temp/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.test.log
+
+# Project specific
+ThetaTerminal.jar
+theta_terminal.log
